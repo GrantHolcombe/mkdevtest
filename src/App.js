@@ -40,6 +40,14 @@ class App extends Component {
       console.log(error);
     });
 
+    this.setState({
+      name: '',
+      email: '',
+      msg: ''
+    })
+
+    window.alert('Thank you!')
+
     event.preventDefault();
   }
 
